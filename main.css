@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+}
+select{
+    width: 13%;
+    height: 20%;
+    background: gray;
+}
+
+.row{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    background: green;
+    display: inline-block;
+}
+.column{
+    width: 30px;
+    height: 30px;
+    background: green;
+    display: inline-block;
+}
+.row:hover{
+    background: white;
+    transition: 0.3s;
+}
+.column:hover{
+    background: white;
+    transition: 0.3s;
+}
+.mine{
+    background: black;
+}
+.bgChange{
+    background: gray;
+}
